@@ -1,0 +1,14 @@
+# Local IDE and build files
+.gradle/
+.kotlin/
+.idea/
+local.properties
+**/build/
+*.iml
+captures/
+.DS_Store
+
+# Signing credentials
+*.jks
+*.keystore
+keystore.properties

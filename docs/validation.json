@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-27",
+  "app": "TrackList",
+  "version": "1.0",
+  "apkSha256": "34bcad9654580d4494a9df94be1fc92bc74f7a8e46c54b7923a04a038d2d118c",
+  "build": "passed",
+  "unitTests": [
+    {
+      "suite": "ru.daniil.tracklist.ApiTest",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "suite": "ru.daniil.tracklist.RepositoryTest",
+      "tests": 10,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "suite": "ru.daniil.tracklist.TrackRulesTest",
+      "tests": 5,
+      "failures": 0,
+      "errors": 0
+    }
+  ],
+  "instrumentedScenario": "passed",
+  "emulator": "Android 11 API 30 arm64-v8a",
+  "lintErrors": 0,
+  "liveItunesResultCount": 3,
+  "limitations": [
+    "Physical devices and minimum API 26 not separately tested",
+    "24 hour scheduling interval not observed"
+  ]
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.daniil.tracklist.RepositoryTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2026-10-27T07:54:34" hostname="MacBook-Pro-Defyzer.local" time="2.694">
+  <properties/>
+  <testcase name="unknownBackupVersionIsRejected" classname="ru.daniil.tracklist.RepositoryTest" time="2.559"/>
+  <testcase name="sameSongCannotBeAddedToPlaylistTwice" classname="ru.daniil.tracklist.RepositoryTest" time="0.026"/>
+  <testcase name="movingSongPersistsOrderAndBoundaryMoveIsSafe" classname="ru.daniil.tracklist.RepositoryTest" time="0.018"/>
+  <testcase name="duplicateImportPreservesUserChanges" classname="ru.daniil.tracklist.RepositoryTest" time="0.014"/>
+  <testcase name="deletingSongRemovesPlaylistLinks" classname="ru.daniil.tracklist.RepositoryTest" time="0.013"/>
+  <testcase name="editChangesExistingSongInsteadOfAddingAnother" classname="ru.daniil.tracklist.RepositoryTest" time="0.011"/>
+  <testcase name="deletingPlaylistPreservesSongs" classname="ru.daniil.tracklist.RepositoryTest" time="0.013"/>
+  <testcase name="backupRoundTripRetainsFavoritesAndPlaylistOrder" classname="ru.daniil.tracklist.RepositoryTest" time="0.017"/>
+  <testcase name="playlistNamesAreUniqueIgnoringCyrillicCase" classname="ru.daniil.tracklist.RepositoryTest" time="0.013"/>
+  <testcase name="invalidBackupLeavesCurrentLibraryUntouched" classname="ru.daniil.tracklist.RepositoryTest" time="0.01"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
